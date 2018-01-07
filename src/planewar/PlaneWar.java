@@ -385,6 +385,7 @@ public class PlaneWar extends JPanel {
 					flyings = new GameObject[0];
 					bullets = new Bullet[0];
 					state = START;
+					break;
 				case RUNNING:
 					state = PAUSE;
 					break;
